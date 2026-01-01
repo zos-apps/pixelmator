@@ -1,0 +1,109 @@
+{
+  "name": "@zos-apps/pixelmator",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "zos": {
+    "id": "ai.hanzo.pixelmator",
+    "name": "Pixelmator",
+    "icon": "🎨",
+    "category": "creative",
+    "description": "Professional image editing",
+    "permissions": [
+      "filesystem"
+    ],
+    "window": {
+      "defaultSize": {
+        "width": 1100,
+        "height": 750
+      },
+      "resizable": true
+    },
+    "featured": true,
+    "tags": [
+      "image",
+      "editing",
+      "graphics",
+      "creative"
+    ],
+    "about": "Professional image editing with powerful tools.",
+    "help": [
+      "Open an image",
+      "Edit with tools",
+      "Apply effects",
+      "Export"
+    ],
+    "docs": "https://zos-apps.github.io/pixelmator",
+    "site": "https://github.com/zos-apps/pixelmator",
+    "features": [
+      "Photo editing",
+      "ML enhancements",
+      "Layer support",
+      "Effects",
+      "RAW support"
+    ],
+    "shortcuts": [
+      "B Brush",
+      "E Eraser",
+      "⌘T Transform"
+    ],
+    "screenshots": {
+      "hero": "screenshots/hero.png",
+      "images": [
+        "screenshots/1-main.png",
+        "screenshots/2-feature.png"
+      ]
+    },
+    "downloads": {
+      "web": "https://zos-apps.github.io/pixelmator"
+    },
+    "releaseDate": "2024-12-31",
+    "support": "https://github.com/zos-apps/pixelmator/issues",
+    "changelog": "https://github.com/zos-apps/pixelmator/releases"
+  },
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.0",
+    "@types/react-dom": "^18.3.0",
+    "@zos-apps/config": "workspace:*",
+    "tsup": "^8.3.5",
+    "typescript": "^5.7.2"
+  },
+  "author": "Hanzo AI",
+  "license": "MIT",
+  "description": "Professional image editing",
+  "homepage": "https://zos-apps.github.io/pixelmator",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zos-apps/pixelmator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zos-apps/pixelmator/issues"
+  },
+  "keywords": [
+    "zos",
+    "app",
+    "pixelmator",
+    "image",
+    "editing",
+    "graphics",
+    "creative"
+  ],
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/zos-apps"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
+}
